@@ -1,0 +1,239 @@
+Restaurant created. Process id: 13747
+Restaurant allocated shared memory segment with id 57835525
+Restaurant attached to shared memory segment with id 57835525
+Restaurant allocated shared memory segment with id 57868294
+Restaurant allocated shared memory segment with id 57901063
+Restaurant initialised shared memory segment members.
+Restaurant closed.
+ no 1 created. Process id: 13751
+Waiter with no 1 attached to shared memory segments with ids 57835525,57868294,57901063
+
+Waiter with no 1 waits. 
+Doorman created. Process id: 13750
+Doorman attached to shared memory segments with ids 57835525,57868294,57901063
+
+Waiter created with no 2 created. Process id: 13752
+Waiter with no 2 attached to shared memory segments with ids 57835525,57868294,57901063
+
+Waiter with no 2 waits. 
+Waiter created with no 3 created. Process id: 13753
+Waiter with no 3 attached to shared memory segments with ids 57835525,57868294,57901063
+
+Waiter with no 3 waits. 
+Customer group created. Process id: 13754. Number of people: 4
+Customer group with process id: 13754 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13754 waits for the doorman. 
+Customer group created. Process id: 13755. Number of people: 8
+Customer group with process id: 13755 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13755 waits for the doorman. 
+Customer group created. Process id: 13758. Number of people: 2
+Customer group with process id: 13758 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13758 waits for the doorman. 
+Customer group created. Process id: 13759. Number of people: 7
+Customer group with process id: 13759 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13759 waits for the doorman. 
+Customer group created. Process id: 13757. Number of people: 8
+Customer group with process id: 13757 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13757 waits for the doorman. 
+Customer group created. Process id: 13756. Number of people: 4
+Customer group with process id: 13756 was attached to shared memory segments with ids 57835525,57868294,57901063
+
+Customer group with process id: 13756 waits for the doorman. 
+Doorman waits. 
+Customer group with process id: 13754 sets number of first group to : 4
+Customer group with process id: 13754 asks doorman for a table.
+Customer group with process id: 13754 waits for the doorman's answer.
+Doorman serves customer.
+Current group's number of people: 4
+Number of available tables suitable for this group: 3
+Doorman gives customer the table no : 3
+Customer group with process id: 13754 got the doorman's answer.
+
+Customer group with process id: 13754 sat in table no 3
+Customer group with process id: 13754 calls waiter with no 1
+Customer group with process id: 13754 wakes waiter 1 and waits to be served.
+Waiter with no 1 wakes up.
+Doorman waits. 
+Customer group with process id: 13755 sets number of first group to : 8
+Customer group with process id: 13755 asks doorman for a table.
+Customer group with process id: 13755 waits for the doorman's answer.
+Doorman serves customer.
+Current group's number of people: 8
+Number of available tables suitable for this group: 1
+Waiter with no 1 takes an order from the customer with process id: 13754
+Doorman gives customer the table no : 5
+Customer group with process id: 13755 got the doorman's answer.
+
+Customer group with process id: 13755 sat in table no 5
+Customer group with process id: 13755 calls waiter with no 2
+Customer group with process id: 13755 wakes waiter 2 and waits to be served.
+Waiter with no 2 wakes up.
+Doorman waits. 
+Customer group with process id: 13758 sets number of first group to : 2
+Customer group with process id: 13758 asks doorman for a table.
+Doorman serves customer.
+Current group's number of people: 2
+Number of available tables suitable for this group: 3
+Customer group with process id: 13758 waits for the doorman's answer.
+Waiter with no 2 takes an order from the customer with process id: 13755
+Waiter with no 1 served the customer with process id: 13754
+
+Waiter with no 1 waits. 
+Customer group with process id: 13754 was served by 1
+Doorman gives customer the table no : 1
+Customer group with process id: 13758 got the doorman's answer.
+
+Customer group with process id: 13758 sat in table no 1
+Customer group with process id: 13758 calls waiter with no 1
+Customer group with process id: 13758 wakes waiter 1 and waits to be served.
+Waiter with no 1 wakes up.
+Doorman waits. 
+Customer group with process id: 13759 sets number of first group to : 7
+Customer group with process id: 13759 asks doorman for a table.
+Customer group with process id: 13759 waits for the doorman's answer.
+Doorman serves customer.
+Current group's number of people: 7
+Number of available tables suitable for this group: 0
+Customer group with process id: 13754 wants to pay.
+Customer group with process id: 13754 waits for waiter with no 1
+Waiter with no 2 served the customer with process id: 13755
+
+Waiter with no 2 waits. 
+Customer group with process id: 13755 was served by 2
+Waiter with no 1 takes an order from the customer with process id: 13758
+Customer group with process id: 13755 wants to pay.
+Customer group with process id: 13755 calls waiter 2 to ask for the bill.
+Waiter with no 2 wakes up.
+Customer group with process id: 13759 got the doorman's answer.
+
+Customer group with process id: 13759 waits in the bar. BarSeat: 0
+Doorman waits. 
+Customer group with process id: 13757 sets number of first group to : 8
+Customer group with process id: 13757 asks doorman for a table.
+Customer group with process id: 13757 waits for the doorman's answer.
+Doorman serves customer.
+Current group's number of people: 8
+Number of available tables suitable for this group: 0
+Waiter with no 1 served the customer with process id: 13758
+
+Waiter with no 1 waits. 
+Customer group with process id: 13758 was served by 1
+Customer group with process id: 13754 calls waiter 1 to ask for the bill.
+Waiter with no 1 wakes up.
+Waiter with no 2 gives the bill to the customer with process id: 13755
+Customer group with process id: 13757 got the doorman's answer.
+
+Customer group with process id: 13757 waits in the bar. BarSeat: 1
+Waiter with no 2 took 12 dollars from the customer with process id: 13755
+
+Waiter with no 2 informs group with process id 13757 that table no 5is available.
+
+Customer group with process id: 13755 paid waiter with no 2
+Customer group with process id: 13755 leaves.
+Waiter with no 2 waits. 
+Customer group with process id: 13757 sat in table no 5
+Customer group with process id: 13757 calls waiter with no 2
+Customer group with process id: 13757 wakes waiter 2 and waits to be served.
+Waiter with no 2 wakes up.
+Customer group with process id: 13759 decides if he wants to continue waiting in bar. 
+Doorman waits. 
+Customer group with process id: 13756 sets number of first group to : 4
+Customer group with process id: 13756 asks doorman for a table.
+Customer group with process id: 13756 waits for the doorman's answer.
+Doorman serves customer.
+Current group's number of people: 4
+Number of available tables suitable for this group: 1
+Customer group with process id: 13758 wants to pay.
+Customer group with process id: 13758 waits for waiter with no 1
+Waiter with no 1 gives the bill to the customer with process id: 13754
+Waiter with no 2 takes an order from the customer with process id: 13757
+Doorman gives customer the table no : 4
+Customer group with process id: 13756 got the doorman's answer.
+
+Customer group with process id: 13756 sat in table no 4
+Customer group with process id: 13756 calls waiter with no 3
+Customer group with process id: 13756 wakes waiter 3 and waits to be served.
+Waiter with no 3 wakes up.
+Waiter with no 1 took 48 dollars from the customer with process id: 13754
+
+Waiter with no 1 informs the doorman that table no 3 is available.
+
+Waiter with no 1 waits. 
+Customer group with process id: 13754 paid waiter with no 1
+Customer group with process id: 13754 leaves.
+Customer group with process id: 13758 calls waiter 1 to ask for the bill.
+Waiter with no 1 wakes up.
+Customer group with process id: 13759 decides if he wants to continue waiting in bar. 
+Doorman waits. 
+Waiter with no 3 takes an order from the customer with process id: 13756
+Waiter with no 1 gives the bill to the customer with process id: 13758
+Waiter with no 2 served the customer with process id: 13757
+
+Waiter with no 2 waits. 
+Customer group with process id: 13757 was served by 2
+Waiter with no 1 took 47 dollars from the customer with process id: 13758
+
+Waiter with no 1 informs the doorman that table no 1 is available.
+
+Waiter with no 1 waits. 
+Customer group with process id: 13758 paid waiter with no 1
+Customer group with process id: 13758 leaves.
+Customer group with process id: 13759 decides if he wants to continue waiting in bar. 
+Customer group with process id: 13757 wants to pay.
+Customer group with process id: 13757 calls waiter 2 to ask for the bill.
+Waiter with no 2 wakes up.
+Waiter with no 3 served the customer with process id: 13756
+
+Waiter with no 3 waits. 
+Customer group with process id: 13756 was served by 3
+Waiter with no 2 gives the bill to the customer with process id: 13757
+Customer group with process id: 13759 decides if he wants to continue waiting in bar. 
+Waiter with no 2 took 47 dollars from the customer with process id: 13757
+
+Waiter with no 2 informs group with process id 13759 that table no 5is available.
+
+Waiter with no 2 waits. 
+Customer group with process id: 13757 paid waiter with no 2
+Customer group with process id: 13757 leaves.
+Customer group with process id: 13759 sat in table no 5
+Customer group with process id: 13759 calls waiter with no 3
+Customer group with process id: 13759 wakes waiter 3 and waits to be served.
+Waiter with no 3 wakes up.
+Customer group with process id: 13756 wants to pay.
+Customer group with process id: 13756 waits for waiter with no 3
+Waiter with no 3 takes an order from the customer with process id: 13759
+Waiter with no 3 served the customer with process id: 13759
+
+Waiter with no 3 waits. 
+Customer group with process id: 13759 was served by 3
+Customer group with process id: 13756 calls waiter 3 to ask for the bill.
+Waiter with no 3 wakes up.
+Waiter with no 3 gives the bill to the customer with process id: 13756
+Customer group with process id: 13759 wants to pay.
+Customer group with process id: 13759 waits for waiter with no 3
+Waiter with no 3 took 48 dollars from the customer with process id: 13756
+
+Waiter with no 3 informs the doorman that table no 4 is available.
+
+Waiter with no 3 waits. 
+Customer group with process id: 13756 paid waiter with no 3
+Customer group with process id: 13756 leaves.
+Waiter with no 3 wakes up.
+Customer group with process id: 13759 calls waiter 3 to ask for the bill.
+Waiter with no 3 gives the bill to the customer with process id: 13759
+Waiter with no 3 took 47 dollars from the customer with process id: 13759
+
+Waiter with no 3 informs the doorman that table no 5 is available.
+
+Waiter with no 3 waits. 
+Customer group with process id: 13759 paid waiter with no 3
+Customer group with process id: 13759 leaves.
+Doorman leaves.
+Waiter 1 leaves.
+Waiter 2 leaves.
+Waiter 3 leaves.
